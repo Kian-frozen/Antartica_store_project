@@ -1,0 +1,415 @@
+#logo {
+  height: 150px;
+  width: 12%;
+  border: groove dodgerblue 5px;
+  display: flex;
+  margin-top: 10px;
+  background: black;
+}
+@font-face {
+  font-family: trafic;
+  src: url(../fonts/Far_Traffic.ttf);
+}
+@font-face {
+  font-family: byekan;
+  src: url(../fonts/BYekan+\ Bold.ttf);
+}
+
+header {
+  background-color: #29648a;
+}
+main {
+  background-color: #aaabb8;
+  border-bottom: aliceblue 4px solid;
+  border-top: aliceblue 4px solid;
+}
+footer {
+  background-color: #29648a;
+  display: flex;
+}
+body {
+  margin: 0px;
+}
+#search {
+  display: flex;
+  justify-content: center;
+}
+#search input {
+  width: 40%;
+    height: 30px;
+    border: dodgerblue 3px inset;
+    padding: 5px;
+    display: flex;
+}
+nav {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+
+.nav-link{
+  background: #112;
+  text-decoration: none;
+  font-size: 15pt;
+  border: 3.5px doub;
+  color: steelblue;
+  font-family: "trafic";
+  background: black;
+  border: 3.5px double steelblue;
+  font-size: 18pt;
+}
+.buton {
+    border: 2px solid steelblue;
+    background-color: black;
+    color: steelblue;
+    font-size: 11pt;
+    width: 60px;
+    height: 35px;
+    font-family: "byekan";
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 13pt;
+}
+select {
+  border: 2px solid dodgerblue;
+    background-color: black;
+    color: dodgerblue;
+    height: 46px;
+    font-family: "trafic";
+    font-size: 14pt;
+}
+#title {
+  border: 3px dashed dodgerblue;
+    background-color: black;
+    color: dodgerblue;
+    /* height: 19px; */
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 25px;
+    font-size: 16pt;
+    padding: 3px;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+  flex-wrap: wrap;
+}
+.product {
+  width: 12%;
+  height: 12%;
+  margin: 0 0 25px 25px;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px -1px 2px 6px #112;
+  overflow: hidden;
+  background-size: cover;
+}
+#fortnite-name {
+  display: flex;
+    /* justify-content: center; */
+    color: white;
+    margin-top: 45px;
+    font-family: "trafic";
+    font-size: 16pt;
+    background-color: #464866;
+    border-radius: 10px 10px 0 0;
+    width: 98.25%;
+    height: 30px;
+    padding: 7px;
+    font-size: 19pt;
+}
+#starter {
+  color: cyan;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14pt;
+  margin: 10px;
+}
+#top-header {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-around;
+  flex-direction: row;
+}
+#new {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+#bottom-header-2 {
+  margin-top: 154.5px;
+}
+#expensive {
+  border-radius: 20px;
+  width: 600px;
+  height: 600px;
+  box-shadow: 0px -1px 2px 7px rgb(0 0 0 / 40%);
+  overflow: hidden;
+  margin: 15px;
+}
+#new-apex {
+  border-radius: 20px;
+  width: 600px;
+  height: 600px;
+  box-shadow: 0px -1px 2px 7px rgb(0 0 0 / 40%);
+  overflow: hidden;
+  margin: 15px;
+}
+#apex-bundle {
+  height: 675px;
+  width: 90%;
+  box-shadow: 0px -1px 2px 7px rgb(0 0 0 / 40%);
+  margin: 15px;
+  border-radius: 20px;
+}
+#apex-big-mother {
+  display: flex;
+  justify-content: center;
+  color: cyan;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16pt;
+}
+#mother {
+  display: flex;
+  justify-content: center;
+}
+#fortnite-mother {
+  display: flex;
+  justify-content: center;
+}
+#footer {
+  background-color: black;
+    color: dodgerblue;
+    border: 2px dashed dodgerblue;
+    font-family: "trafic";
+    width: 767px;
+    height: 120px;
+    margin-top: 45px;
+    font-size: 14pt;
+
+}
+
+.safe {
+  border: darkblue 2px solid;
+  border-radius: 10px;
+  background: white;
+  width: 160px;
+  margin: 13px;
+  height: 160px;
+  border-radius: 100px;
+}
+#safe-mother {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#title-button {
+  border: 2px solid steelblue;
+  background-color: black;
+  color: steelblue;
+  font-size: 11pt;
+  width: 56px;
+  height: 46px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.ps5 {
+  width: 20%;
+  margin: 0 0 25px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ps5 img {
+  border-radius: 20px;
+  width: 100%;
+  height: 282px;
+  box-shadow: 0px -1px 2px 6px #112;
+  overflow: hidden;
+  background-size: cover;
+  background-color: white;
+}
+.but {
+    border: 2px solid steelblue;
+    background-color: black;
+    color: steelblue;
+    font-size: 11pt;
+    width: 60px;
+    height: 35px;
+    font-family: "byekan";
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: 13pt;
+}
+#new.products{
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+  flex-wrap: wrap;
+}
+.game img{
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.game{
+  width: 30%;
+  height: 15%;
+  margin: 0 0 25px 25px;
+}
+#battle-pass-2 img{
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px -1px 2px 6px #112;
+    width: 90%;
+    height: 96%;
+    background-size: cover;
+    margin-right: 40px;
+}
+header #search button{
+  border: 2px solid dodgerblue;
+    background-color: black;
+    color: dodgerblue;
+    font-size: 11pt;
+    width: 60px;
+    height: 35px;
+    font-family: "trafic";
+    height: 46px;
+    font-size: 14pt;
+}
+#battle-new{
+  display: flex;
+  justify-content: center;
+}
+#blade{
+  background-color: black;
+  /* margin-right: 20px; */
+  margin-bottom: 25px;
+  /* margin-top: 30px; */
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px -1px 2px 6px #112;
+  width: 95%;
+  height: 250px;
+  margin: 10px;
+  background-size: cover;
+}
+
+#x{
+  width: 100%;
+  /* margin-right: 20px; */
+  margin-bottom: 20px;
+}
+
+#blade img{
+  border-radius: 20px;
+  overflow: hidden;
+  width: 95%;
+  height: 250px;
+  background-size: cover;
+}
+
+#x img{
+  border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px -1px 2px 6px #112;
+    width: 95%;
+    height: 230px;
+    background-size: cover;
+    margin: 10px;
+}
+#slider-mother{
+  width: 40%;
+  flex-wrap: wrap;
+}
+#battle-pass-2{
+  width: 100%;
+  height: 260px;
+}
+#big-ps5{
+    width: 95%;
+    height: 525px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px -1px 2px 6px #112;
+    margin-right: 25px;
+}
+#f{
+   background: rgb(146, 0, 190) url("../media/images/f.png");
+   background-size: cover;
+    height: 200px;
+    width: 1320px;
+   
+    overflow: hidden;
+    box-shadow: 0px -1px 2px 6px #112;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+::placeholder{
+  font-family: "trafic";
+  font-size: 15pt ;
+  color: #399;
+}
+#log:hover{
+  color: blue;
+  background: #77bfe2;
+  border-bottom: 4px solid blue;
+}
+
+#register:hover{
+  color: blue;
+  background: #77bfe2;
+  border-bottom: 4px solid blue;
+  border-radius: 5px;
+}
+
+#index:hover{
+  color: blue;
+  background: #77bfe2;
+  border-bottom: 4px solid blue;
+  border-radius: 5px;
+}
+
+#about:hover{
+  color: blue;
+  background: #77bfe2;
+  border-bottom: 4px solid blue;
+  border-radius:5px;
+}
+header #search button:hover{
+  color: blue;
+  background: #77bfe2;
+  border-bottom: 4px solid blue;
+  border-radius:5px;
+}
+.but:hover{
+  color: blue;
+  background: #77bfe2;
+  border-bottom: 4px solid blue;
+  border-radius:5px;
+}
+.buton:hover{
+  color: blue;
+  background: #77bfe2;
+  border-bottom: 4px solid blue;
+  border-radius:5px;
+}
+#search2{
+    background: white;
+    border: dodgerblue 3px inset;
+    border: 3pxinset dodgerblue;
+}
+#search2:hover{
+  color: blue;
+  background: #77bfe2;
+  border-bottom: 4px solid blue;
+}
+
+
